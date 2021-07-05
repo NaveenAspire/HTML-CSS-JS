@@ -1,0 +1,23 @@
+#paragraph
+		{
+			
+			font-size:18px;
+			font-family:Arial,"Times_New_Roman";
+		}
+
+#container{
+	display: block;
+	margin: auto;
+	width: 700px;
+	height: 500px;
+	background :rgb(19, 148, 207);
+}
+
+@media screen and (max-width: 600px) 
+{
+    #container
+	{
+		background:rgb(74, 247, 74);
+	}
+}
+

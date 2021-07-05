@@ -1,0 +1,27 @@
+#box{
+    border-style:solid;
+    border-radius: 10px;
+    border-color:black;
+    background-color:white;
+    height: 100px;
+    width:400px;
+    margin: auto;
+    }
+#text
+{
+    padding-left:20px;
+    padding-bottom:20px;
+    padding-top:20px;
+    animation-name: move-horizontal;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    }
+    
+    @keyframes move-horizontal{
+    100% {
+            transform : translate(250px);
+            }
+       }
+    

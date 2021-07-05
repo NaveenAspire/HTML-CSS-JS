@@ -1,0 +1,18 @@
+#paragraph:first-line
+{
+	color:red;
+}
+#paragraph:first-letter
+{
+	color:#660c6e;
+	text-transform:capitalize;
+}
+a:visited
+{	
+	color:rgb(30, 126, 6);
+}
+		
+a:hover
+{
+	color:red;
+}
